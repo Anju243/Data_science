@@ -1,0 +1,16 @@
+import numpy as np
+x=np.array([1,2,3,4])
+y=np.array([5,6,7,8])
+
+print("Array1:")
+print(x)
+print("Array2:")
+print(y)
+print("arra1>array2:")
+print(np.greater(x,y))
+print("array1 greater than eqaul array2:")
+print(np.greater_equal(x,y))
+print("arra1  less than  array2")
+print(np.less(x,y))
+print("array1 less than or equal array2")
+print(np.less_equal(x,y))
